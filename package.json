@@ -1,0 +1,18 @@
+{
+  "name": "simple-watchface",
+  "author": "Developer",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "pebble": {
+    "sdk-version": "^4.0",
+    "displayName": "Simple Watchface",
+    "uuid": "a0f8a124-5c1d-4d44-bb3f-b22e16b2c5d9",
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": []
+    },
+    "targetPlatforms": ["aplite", "basalt", "chalk", "diorite", "emery"]
+  }
+}
